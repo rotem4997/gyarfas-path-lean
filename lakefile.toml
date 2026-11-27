@@ -1,0 +1,10 @@
+name = "gyarfas_path_lean"
+defaultTargets = ["GyarfasPathLean"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "ea8e3e198ded6fc73efb7f5653b74b28ac4ae1a8"
+
+[[lean_lib]]
+name = "GyarfasPathLean"
